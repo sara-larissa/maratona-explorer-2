@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+  /*variaveis*/ 
+  --bg-color:pink solid;
+  --text-color: #1f0217;
+  }
+  
+  body.dark {
+    --bg-color:#1f0217;
+    --text-color: pink solid
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .container{
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+  }
+  
+  body {
+    background: var(--bg-color) ;
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  img {
+   width: 100%;
+  }
+  
+  img.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 3.7px;
+    border: pink solid 4px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-top: 24px;
+    color: pink;
+    margin-bottom: 8px;
+  }
+  
+  .username {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: pink; 
+    opacity: 0.8;
+    font-size:18px ;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 48px;
+  }
+  
+  ul li a {
+    height: 53px;
+    border: 1px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(215, 98, 118);
+    color:white ;
+    text-transform: uppercase ;
+    font-size: 14px;
+  
+    margin-bottom:16px ;
+    border-radius: 6px;
+  
+    transition: background 400ms;
+  
+  }
+  
+  /*pseudo-class*/
+  ul li a:hover {
+  background:#99294b  ;
+  }
+  
+  footer{
+    font-weight: 500;
+    font-size: 12px;
+    color: pink;
+    opacity: 0.6;
+  
+    transition: opacity 400ms;
+  }
+  
+  footer:hover {
+    opacity: 1;
+  }
+  
+  footer a{
+    color:var(--text-color);
+  
+  }
